@@ -79,4 +79,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #require for Devise
+  config.action_mailer.default_url_options = { host => 'http://omr-bren.herokuapp.com/' } 
 end

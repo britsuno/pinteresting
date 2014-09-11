@@ -82,4 +82,5 @@ Rails.application.configure do
 
   #require for Devise
   config.action_mailer.default_url_options = { host => 'http://omr-bren.herokuapp.com/' } 
+
 end

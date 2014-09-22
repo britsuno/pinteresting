@@ -53,7 +53,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #require for Devise
-  config.action_mailer.default_url_options = { host => 'http://omr-bren.herokuapp.com/' } 
+  config.action_mailer.default_url_options = { host: 'http://omr-bren.herokuapp.com/' } 
 
   #sets Paperclip to upload images to Amazon s3
   config.paperclip_defaults = {
